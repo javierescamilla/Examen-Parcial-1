@@ -87,9 +87,11 @@ fieldset legend{
     float: right !important;
 }
 .seccionComments{
+    color: lightgreen;
     border: 1px dashed #6278B0;
     padding: 10px;
 }
+.seccionComments
 .comName{
     text-align: left;
     font-size: 20px;

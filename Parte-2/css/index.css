@@ -25,3 +25,17 @@
     height: 50%;
     
   }
+
+  @media (max-size: 599px){
+    flex-direction: row;
+    
+
+  }
+
+  @media (min-size: 600) and (max-size: 899){
+    
+  }
+
+  @media (min-size: 900){
+
+  }
