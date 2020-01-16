@@ -15,7 +15,9 @@ addCommentButton.addEventListener("click", function(event){
         let boxNameUser = document.createTextNode(nameUser[0].value)
         let commentNameUser = document.createTextNode(commentUser.value)
         let space = document.createElement("br");
+        let separacion = document.createTextNode(" : ")
         commentSection[0].appendChild(boxNameUser);
+        commentSection[0].appendChild(separacion);
         commentSection[0].appendChild(commentNameUser);
         commentSection[0].appendChild(space);
     }
